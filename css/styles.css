@@ -75,7 +75,6 @@ img {
 .studio {
     position: relative;
     color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio::after {
@@ -86,6 +85,7 @@ img {
     height: 4px;
     background-color: #404BBF;
     border-radius: 2px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation {
@@ -95,7 +95,7 @@ img {
     font-weight: 500;
     display: block;
     padding: 24px 0;
-    transition: color 250ms ease-in-out cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navigation:focus,
@@ -117,7 +117,7 @@ img {
     font-weight: 400;
     letter-spacing: 0.02em;
     line-height: 1.5;
-    transition: color 250ms ease-in-out cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .feedback:focus,
