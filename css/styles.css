@@ -98,10 +98,7 @@ img {
     padding: 24px 0;
 }
 
-.navigation:focus,
-.navigation:hover {
-    color: #404bbf;
-}
+
 
 .address {
     font-style: normal;
@@ -222,6 +219,7 @@ img {
     align-items: center;
     justify-content: center;
     display: flex;
+    width: 264px;
     height: 112px;
     background-color: #F4F4FD;
     border: 1px #8E8F99;
