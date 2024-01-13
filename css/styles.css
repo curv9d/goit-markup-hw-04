@@ -98,7 +98,10 @@ img {
     padding: 24px 0;
 }
 
-
+.navigation:focus,
+.navigation:hover {
+    color: #404bbf;
+}
 
 .address {
     font-style: normal;
