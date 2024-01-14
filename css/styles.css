@@ -447,9 +447,11 @@ img {
 }
 
 .container.footer-container {
+    display: flex;
+    align-items: baseline;
     justify-content: space-between;
-    align-items: center;
     margin-left: 156px;
+    margin-right: 120px;
 }
 
 .footer-text {
@@ -474,4 +476,24 @@ img {
 
 .logo-studio-footer {
     color: #F4F4FD; 
+}
+
+.footer-another-text {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icon {
+    width: 40px;
+    height: 40px;
 }
