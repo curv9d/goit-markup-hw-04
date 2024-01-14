@@ -502,6 +502,7 @@ img {
 .footer-icon {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-icon-link {
@@ -514,7 +515,11 @@ img {
     background-color: #4D5AE5;
 }
 
+.footer-svg {
+    fill: #F4F4FD;
+}
+
 .footer-icon-link:hover,
 .footer-icon-link:focus {
-    background: beige;
+    background-color: #31d0aa;
 }
