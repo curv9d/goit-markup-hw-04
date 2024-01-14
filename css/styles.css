@@ -80,7 +80,6 @@ img {
 
 .studio-button::after {
     content: "";
-    color: #404bbf;
     position: absolute;
     left: 0;
     bottom: -1px;
@@ -91,7 +90,7 @@ img {
 }
 
 .navigation {
-    color: #2e2f42;
+    color: #404BBF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
