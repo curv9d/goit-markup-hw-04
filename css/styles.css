@@ -383,7 +383,6 @@ img {
 .portfolio-img-wrap {
     position: relative;
     overflow: hidden;
-    transform: translateY(0%);
 }
 
 .portfolio-wrap-text {
